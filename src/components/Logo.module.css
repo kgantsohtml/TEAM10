@@ -1,0 +1,14 @@
+/* Black stamped crate label — not green (brief section 8). */
+
+.logo {
+  display: inline-block;
+  border: 3px solid var(--line);
+  padding: 8px 12px;
+  font-size: 22px;
+  line-height: 1.15;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text);
+  background: var(--bg);
+  white-space: nowrap;
+}

@@ -1,0 +1,17 @@
+---
+description: Keep ARCHITECTURE.md in sync when the stack or structure changes
+alwaysApply: true
+---
+
+# Update the architecture brief
+
+`ARCHITECTURE.md` at the repo root is the living stack and architecture brief. Read it before changing how the app is built.
+
+In the same change, update that file when you:
+
+- add or remove a dependency, service, or data store
+- add, rename, or remove a route or top-level folder
+- change `Track`, `Pick`, or `src/config.ts`
+- move data loading off dummy files in `src/data`
+
+Keep **Planned** and **Current** honest. Add one line to the changelog table. Do not paste a second copy of the brief into the README.

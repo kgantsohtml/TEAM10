@@ -1,0 +1,84 @@
+/* BASS BIN design tokens (brief section 8). */
+
+:root {
+  --bg: #f1f1f1;
+  --bg-stripe: #ffffff;
+  --text: #000000;
+  --muted: #6b6b6b;
+  --line: #000000;
+  --green: #c8ff00;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-anton), Impact, sans-serif;
+  min-height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Layout shell: room for pinned now-playing strip */
+.app-shell {
+  min-height: 100vh;
+  padding-bottom: 88px;
+}
+
+.page {
+  padding: 16px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+/* Utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

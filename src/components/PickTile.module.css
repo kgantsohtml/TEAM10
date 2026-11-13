@@ -1,0 +1,77 @@
+.tile {
+  border: 1px solid var(--line);
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+}
+
+.binLink {
+  display: block;
+}
+
+.cover {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line);
+}
+
+.code {
+  padding: 6px 8px 0;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.onAir {
+  background: var(--green);
+}
+
+.title {
+  padding: 2px 8px 8px;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px;
+  align-items: center;
+}
+
+.tag {
+  border: 1px solid var(--line);
+  padding: 2px 6px;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.by {
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.note {
+  padding: 0 8px 8px;
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.external {
+  padding: 8px;
+  gap: 8px;
+}
+
+.externalLabel {
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}

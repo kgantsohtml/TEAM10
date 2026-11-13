@@ -1,0 +1,13 @@
+.wave {
+  display: flex;
+  align-items: flex-end;
+  gap: 1px;
+  width: 100%;
+  height: 40px;
+}
+
+.bar {
+  flex: 1 1 0;
+  min-width: 1px;
+  background: var(--text);
+}

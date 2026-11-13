@@ -1,0 +1,56 @@
+.form {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid var(--line);
+  padding: 16px;
+  background: var(--bg);
+  margin-top: 28px;
+}
+
+.heading {
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.field input {
+  border: 1px solid var(--line);
+  background: var(--bg-stripe);
+  padding: 8px;
+  text-transform: none;
+  color: var(--text);
+  letter-spacing: 0;
+  font-size: 14px;
+}
+
+.submit {
+  border: 1px solid var(--line);
+  background: var(--bg);
+  padding: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+}
+
+.submit:hover {
+  background: var(--green);
+}
+
+.message {
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

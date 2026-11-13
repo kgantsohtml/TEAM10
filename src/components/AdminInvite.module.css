@@ -1,0 +1,32 @@
+.box {
+  border: 1px solid var(--line);
+  padding: 16px;
+  max-width: 360px;
+}
+
+.btn {
+  border: 1px solid var(--line);
+  background: var(--bg);
+  padding: 10px 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: var(--green);
+}
+
+.code {
+  margin-top: 12px;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.note {
+  margin: 12px 0 0;
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+}

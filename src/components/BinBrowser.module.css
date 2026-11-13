@@ -1,0 +1,27 @@
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.search,
+.select,
+.random {
+  border: 1px solid var(--line);
+  background: var(--bg);
+  padding: 8px 10px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.search {
+  flex: 1 1 160px;
+  min-width: 140px;
+}
+
+.random:hover,
+.select:hover {
+  background: var(--green);
+}
