@@ -1,0 +1,19 @@
+---
+description: Use Shadcn for interface components
+globs: "**/*.{tsx,css}"
+alwaysApply: false
+---
+
+# UI
+
+Shadcn is the component library. Import from `@/components/ui`.
+
+```tsx
+import { Button } from "@/components/ui/button";
+
+<Button type="submit">Save</Button>
+```
+
+- Add a missing piece with `npx shadcn@latest add <name>`.
+- Do not install a second component library.
+- Do not restyle with one-off button or input elements when a Shadcn component exists.

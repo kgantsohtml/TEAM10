@@ -1,0 +1,21 @@
+---
+description: Production is main. Day-to-day work happens on feature branches and pull requests.
+alwaysApply: true
+---
+
+# Branches
+
+`main` is production. Vercel production deploys from `main` only.
+
+- Do not commit, push, or merge directly to `main`.
+- Create `feature/<short-name>` from an up-to-date `main`.
+- Open a pull request into `main` for review.
+- Do not force-push `main`.
+
+```bash
+git checkout main
+git pull
+git checkout -b feature/short-name
+```
+
+The full brief is `AGENTS.md`. Do not fill in the Solution section unless the team has chosen the task there.
